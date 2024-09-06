@@ -14,8 +14,9 @@ import java.util.Enumeration;
 import java.util.Properties;
 
 /***
- * Postgresql 사용 시 timestamp, date 등 타입에 대해 java.time.* 패키지를 사용하도록 지원
- * org.postgresql.Driver 대신 사용
+ * custom Postgresql Driver to use timestamp, timestamptz, date columns as java.time.* classes
+ * replace org.postgresql.Driver to this driver class
+ * any body can uses this code without any permission
  *
  * @author Jaehak Lee
  */
