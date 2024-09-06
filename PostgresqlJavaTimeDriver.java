@@ -16,7 +16,8 @@ import java.util.Properties;
 /***
  * custom Postgresql Driver to use timestamp, timestamptz, date columns as java.time.* classes
  * replace org.postgresql.Driver to this driver class
- * any body can uses this code without any permission
+ * 
+ * any body can uses this code without any permission at your own risk
  *
  * @author Jaehak Lee
  */
